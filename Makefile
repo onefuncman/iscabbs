@@ -1,5 +1,5 @@
 #  Makefile for ISCA BBS
-CC := gcc -std=gnu18 
+CC := gcc
 CC += -m32
 
 CPPFLAGS += $(SSLINC) #   -D_SSL
